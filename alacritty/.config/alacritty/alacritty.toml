@@ -1,0 +1,26 @@
+import = [
+    "~/.config/alacritty/themes/themes/nord.toml" # zsh, bsh
+    #"~/.config/alacritty/themes/themes/gruvbox_dark.toml" # zsh, bsh
+    #"~/AppData/Roaming/alacritty/themes/themes/gruvbox_dark.toml" # pwsh
+]
+
+live_config_reload = true
+
+#[font]
+#normal = { family = "Lekton Nerd Font"} #, style = "Italic" }
+#size = 14
+#builtin_box_drawing = true 
+
+#[window]
+#dimensions = { columns = 100, lines = 40 }
+
+#padding = { x = 3, y = 3 }
+#dynamic_padding = true
+
+#startup_mode = "Windowed"
+#title = "Alacritty"
+#dynamic_title = true 
+#decorations_theme_variant = "None"
+#decorations = "Buttonless"
+#opacity = 0.9
+#blur = true
