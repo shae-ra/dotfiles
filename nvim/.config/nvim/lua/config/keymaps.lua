@@ -56,3 +56,6 @@ end)
 map("n", "<C-S-N>", function()
   harpoon:list():next()
 end)
+
+-- Preview (Markdown plugin)
+map("n", "<leader>mp", "<cmd>Preview<CR>")
