@@ -7,4 +7,6 @@ foo.*
 *.log
 data
 
-lazy-lock.json
+# Neovim
+*lazy-lock.json
+*lazyvim.json
