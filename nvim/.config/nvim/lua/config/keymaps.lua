@@ -59,3 +59,7 @@ end)
 
 -- Preview (Markdown plugin)
 map("n", "<leader>mp", "<cmd>Preview<CR>")
+
+-- Ccc
+map("n", "<leader>cp", "<cmd>CccPick<CR>")
+map("n", "<leader>c#", "<cmd>CccHighlighterToggle<CR>")
