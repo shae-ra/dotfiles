@@ -32,7 +32,7 @@
         },
         {
           "background": "p:white",
-          "foreground": "p:black",
+          "foreground": "#ffffff",
           "style": "plain",
           "template": " \uf489 {{.Name}}\u2800",
           "type": "shell"
@@ -48,7 +48,9 @@
           "background": "#ffffd6",
           "foreground": "p:black",
           "properties": {
-            "branch_icon": " \ue0a0 "
+            "branch_icon": " \ue0a0 ",
+            "fetch_stash_count": true,
+            "fetch_status": true
           },
           "style": "plain",
           "template": "{{.HEAD}}\u2800",

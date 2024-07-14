@@ -120,4 +120,4 @@ eval $(ssh-agent)
 . "$HOME/.cargo/env"
 
 ## oh-my-posh config
-eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/quick-term.omp.json')"
+eval "$(oh-my-posh init bash --config '~/posh-themes/quick-term.omp.json')"
