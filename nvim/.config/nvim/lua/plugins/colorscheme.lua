@@ -1,12 +1,16 @@
 return {
-  -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
+	-- add gruvbox
+	{ "ellisonleao/gruvbox.nvim" },
+	{ "haystackandroid/carbonized" },
+	{ "AlessandroYorba/Alduin" },
 
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "gruvbox",
-    },
-  }
+	-- Configure LazyVim to load gruvbox
+	{
+		"LazyVim/LazyVim",
+		opts = {
+			--colorscheme = "carbonized-dark",
+			colorscheme = "gruvbox",
+			--colorscheme = "alduin",
+		},
+	},
 }
