@@ -5,9 +5,9 @@ import = [
 
 live_config_reload = true
 
-#[font]
-#normal = { family = "Lekton Nerd Font"} #, style = "Italic" }
-#size = 14
+[font]
+normal = { family = "GohuFont14 Nerd Font"} #, style = "Italic" }
+size = 12
 #builtin_box_drawing = true 
 
 #[window]
@@ -28,4 +28,4 @@ live_config_reload = true
 #[env]
 #TERM = xterm-256color
 
-shell = "zsh"
+#shell = "zsh"
