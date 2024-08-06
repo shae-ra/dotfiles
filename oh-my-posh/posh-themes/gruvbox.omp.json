@@ -16,7 +16,9 @@
           "foreground": "#282828",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "style": "full"
+            "folder_icon": " \uf07b ",
+            "home_icon": "\ue617",
+            "style": "folder"
           },
           "style": "powerline",
           "template": " {{ .Path }} ",
@@ -72,11 +74,12 @@
           "foreground": "#111111",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "display_mode": "files",
-            "fetch_virtual_env": false
+            "display_mode": "environment",
+            "fetch_virtual_env": true,
+            "home_enabled": true
           },
           "style": "powerline",
-          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Env.VIRTUAL_ENV_PROMPT }}{{ .Env.VIRTUAL_ENV_PROMPT }} {{ end }}{{ .Full }}{{ end }} ",
           "type": "python"
         },
         {
