@@ -30,31 +30,31 @@ harpoon:setup()
 -- REQUIRED
 
 map("n", "<leader>a", function()
-  harpoon:list():add()
+	harpoon:list():add()
 end)
 map("n", "<C-e>", function()
-  harpoon.ui:toggle_quick_menu(harpoon:list())
+	harpoon.ui:toggle_quick_menu(harpoon:list())
 end)
 
 map("n", "<leader>1", function()
-  harpoon:list():select(1)
+	harpoon:list():select(1)
 end, { desc = "Go to Harpoon window 1" })
 map("n", "<leader>2", function()
-  harpoon:list():select(2)
+	harpoon:list():select(2)
 end, { desc = "Go to Harpoon window 2" })
 map("n", "<leader>3", function()
-  harpoon:list():select(3)
+	harpoon:list():select(3)
 end, { desc = "Go to Harpoon window 3" })
 map("n", "<leader>4", function()
-  harpoon:list():select(4)
+	harpoon:list():select(4)
 end, { desc = "Go to Harpoon window 4" })
 
 -- Toggle previous & next buffers stored within Harpoon list
 map("n", "<C-S-P>", function()
-  harpoon:list():prev()
+	harpoon:list():prev()
 end)
 map("n", "<C-S-N>", function()
-  harpoon:list():next()
+	harpoon:list():next()
 end)
 
 -- Preview (Markdown plugin)
@@ -63,3 +63,6 @@ map("n", "<leader>mp", "<cmd>Preview<CR>")
 -- Ccc
 map("n", "<leader>cp", "<cmd>CccPick<CR>")
 map("n", "<leader>c#", "<cmd>CccHighlighterToggle<CR>")
+
+-- Aerial
+map("n", "<leader>a", "<cmd>AerialToggle!<CR>")
