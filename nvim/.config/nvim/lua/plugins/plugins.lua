@@ -1,4 +1,5 @@
 -- Multiple plugins that don't require customization
 return {
-  { "christoomey/vim-tmux-navigator", lazy = false },
+	{ "christoomey/vim-tmux-navigator", lazy = false },
+	{ "tpope/vim-fugitive" },
 }

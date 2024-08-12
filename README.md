@@ -6,6 +6,16 @@ Since I'm a lazy person, I decided to use GNU Stow to symlink my dotfiles to my 
 
 # Packages
 
+## Alacritty
+I'm defaulting to Alacritty for linux distros, for Windows it is Alacritty + PWSH, but I'm using terminal since it's easier with the nerdfonts on WSL
+Here are some default configs that aren't really that important, only fonts and window styling.
+
+## Bash
+I'm not really using bash, I rely solely on zsh, so this package will mostly remain unatennded.
+
+## Git
+Some initial configuration for now, there's much to be done there.
+
 ## Neovim
 This is a forked version of 💤 [LazyVim](https://github.com/LazyVim/LazyVim), tweaked to my likes and needs.
 Refer to the [documentation](https://lazyvim.github.io/installation) for a thorough experience setting this up.
@@ -25,12 +35,17 @@ I'm looking towards a smoother integration of Harpoon since there are still a co
 This config combines LazyVim with some of ThePrimeagen configs from his own setup.
 It is leveraging tmux multiplexing sessions along with vim-tmux-navigator for increased productivity.
 
+## Oh-my-posh
+My go-to terminal pretifier.
+
 ## Tmux
 Based on [the Zen tmux config](https://youtu.be/DzNmUNvnB04?si=M0ZjLt8ZZM3NlBUT).
 Prefix is ctrl+space
 
 > Pretty standard config if you ask me.
 
+## Zsh
+My main shell environment.
 
 # How many times did I write config?
 Count'em

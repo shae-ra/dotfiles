@@ -37,9 +37,17 @@
 	#changed = yellow bold
 	#untracked = red bold
 [diff]
-	#tool = vimdiff
+    tool = nvimdiff
 [difftool]
-	#prompt = false
+    prompt = true
+[difftool "nvimdiff"]
+    cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
+[merge]
+    tool = nvimdiff
+[mergetool]
+    prompt = true
+[mergetool "nvimdiff"]
+    cmd = "nvim -f -c \"Gdiffsplit!\" \"$MERGED\""
 [delta]
 	#features = line-numbers decorations
 	#line-numbers = true
