@@ -36,6 +36,19 @@
           "style": "diamond",
           "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
           "type": "git"
+        },
+        {
+          "leading_diamond": "<#ff70a6> \ue285 </>",
+          "foreground": "#a9ffb4",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "display_mode": "environment",
+            "fetch_virtual_env": true,
+            "home_enabled": true
+          },
+          "style": "diamond",
+          "template": " \ue5ff {{ if .Error }}{{ .Error }}{{ else }}{{ if .Env.VIRTUAL_ENV_PROMPT }}{{ .Env.VIRTUAL_ENV_PROMPT }} {{ end }}{{ .Full }}{{ end }} ",
+          "type": "python"
         }
       ],
       "type": "prompt"
