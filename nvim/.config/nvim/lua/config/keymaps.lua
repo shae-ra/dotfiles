@@ -66,3 +66,6 @@ map("n", "<leader>c#", "<cmd>CccHighlighterToggle<CR>")
 
 -- Aerial
 map("n", "<leader>a", "<cmd>AerialToggle!<CR>")
+
+-- TransparencyToggle
+map("n", "<leader>tt", "<cmd>TransparentToggle<CR>")
