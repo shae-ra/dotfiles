@@ -4,4 +4,5 @@ return {
 	{ "tpope/vim-fugitive" },
 	{ "xiyaowong/transparent.nvim" },
 	{ "hrsh7th/nvim-cmp" },
+	{ "mbbill/undotree" },
 }

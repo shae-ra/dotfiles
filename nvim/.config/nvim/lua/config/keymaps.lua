@@ -57,15 +57,16 @@ map("n", "<C-S-N>", function()
 	harpoon:list():next()
 end)
 
+-- Plugins mappings --
+
 -- Preview (Markdown plugin)
-map("n", "<leader>mp", "<cmd>Preview<CR>")
-
+map("n", "<leader>pp", "<cmd>Preview<CR>")
 -- Ccc
-map("n", "<leader>cp", "<cmd>CccPick<CR>")
-map("n", "<leader>c#", "<cmd>CccHighlighterToggle<CR>")
-
+map("n", "<leader>pc", "<cmd>CccPick<CR>")
+map("n", "<leader>pc#", "<cmd>CccHighlighterToggle<CR>")
 -- Aerial
-map("n", "<leader>a", "<cmd>AerialToggle!<CR>")
-
+map("n", "<leader>at", "<cmd>AerialToggle!<CR>")
 -- TransparencyToggle
 map("n", "<leader>tt", "<cmd>TransparentToggle<CR>")
+-- UndoTree
+map("n", "<leader>ut", "<cmd>UndotreeToggle<CR>")
