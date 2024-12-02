@@ -13,13 +13,13 @@ return {
 	},
 
 	-- Configure LazyVim to load gruvbox
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			--colorscheme = "carbonized-dark",
-			--colorscheme = "gruvbox",
-			--colorscheme = "alduin",
-			colorscheme = "miasma",
-		},
-	},
+	--{
+	--"LazyVim/LazyVim",
+	--opts = {
+	--colorscheme = "carbonized-dark",
+	--colorscheme = "gruvbox",
+	--colorscheme = "alduin",
+	colorscheme = "miasma",
+	--},
+	--},
 }

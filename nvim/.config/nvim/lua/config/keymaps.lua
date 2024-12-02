@@ -63,10 +63,10 @@ end)
 map("n", "<leader>pp", "<cmd>Preview<CR>")
 -- Ccc
 map("n", "<leader>pc", "<cmd>CccPick<CR>")
-map("n", "<leader>pc#", "<cmd>CccHighlighterToggle<CR>")
+map("n", "<leader>p#", "<cmd>CccHighlighterToggle<CR>")
 -- Aerial
-map("n", "<leader>at", "<cmd>AerialToggle!<CR>")
+map("n", "<leader>pa", "<cmd>AerialToggle!<CR>")
 -- TransparencyToggle
-map("n", "<leader>tt", "<cmd>TransparentToggle<CR>")
+map("n", "<leader>pt", "<cmd>TransparentToggle<CR>")
 -- UndoTree
-map("n", "<leader>ut", "<cmd>UndotreeToggle<CR>")
+map("n", "<leader>pu", "<cmd>UndotreeToggle<CR>")
