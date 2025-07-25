@@ -3,14 +3,16 @@
 -- Add any additional options here
 --
 local opt = vim.opt
+local g = vim.g
 
 opt.nu = true
 opt.relativenumber = true
 
-opt.tabstop = 4
-opt.softtabstop = 4
-opt.shiftwidth = 4
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2
 opt.expandtab = true
+opt.conceallevel = 0
 
 opt.smartindent = true
 
@@ -35,3 +37,6 @@ opt.updatetime = 50
 opt.colorcolumn = "120"
 
 opt.clipboard = unnamedplus
+
+-- globals
+g.snacks_animate = false
