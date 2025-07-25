@@ -21,21 +21,21 @@
 	#enabled = 1
 	#autoupdate = 1
 [color]
-	#ui = auto
+	ui = auto
 [color "branch"]
-	#current = yellow bold
-	#local = green bold
-	#remote = cyan bold
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
 [color "diff"]
-	#meta = yellow bold
-	#frag = magenta bold
-	#old = red bold
-	#new = green bold
-	#whitespace = red reverse
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
 [color "status"]
-	#added = green bold
-	#changed = yellow bold
-	#untracked = red bold
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
 [diff]
     tool = nvimdiff
 [difftool]
@@ -49,22 +49,22 @@
 [mergetool "nvimdiff"]
     cmd = "nvim -f -c \"Gdiffsplit!\" \"$MERGED\""
 [delta]
-	#features = line-numbers decorations
-	#line-numbers = true
+	features = line-numbers decorations
+	line-numbers = true
 [delta "decorations"]
-	#minus-style = red bold normal
-	#plus-style = green bold normal
-	#minus-emph-style = white bold red
-	#minus-non-emph-style = red bold normal
-	#plus-emph-style = white bold green
-	#plus-non-emph-style = green bold normal
-	#file-style = yellow bold none
-	#file-decoration-style = yellow box
-	#hunk-header-style = magenta bold
-	#hunk-header-decoration-style = magenta box
-	#minus-empty-line-marker-style = normal normal
-	#plus-empty-line-marker-style = normal normal
-	#line-numbers-right-format = "{np:^4}│ "
+	minus-style = red bold normal
+	plus-style = green bold normal
+	minus-emph-style = white bold red
+	minus-non-emph-style = red bold normal
+	plus-emph-style = white bold green
+	plus-non-emph-style = green bold normal
+	file-style = yellow bold none
+	file-decoration-style = yellow box
+	hunk-header-style = magenta bold
+	hunk-header-decoration-style = magenta box
+	minus-empty-line-marker-style = normal normal
+	plus-empty-line-marker-style = normal normal
+	line-numbers-right-format = "{np:^4}│ "
 [github]
 	user = share-ra
     name = Juanjo
